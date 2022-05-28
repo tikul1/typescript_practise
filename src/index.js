@@ -44,3 +44,8 @@ function addNum(x, y) {
     return x + y;
 }
 addNum(2, 3);
+//using void 
+function addnum2(x) {
+    console.log(x);
+}
+addnum2("hh");

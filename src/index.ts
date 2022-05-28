@@ -75,3 +75,24 @@ function addNum(x: number, y:number): number {
 
 }
 addNum(2,3)
+
+//using void 
+function addnum2(x: number | string): void {
+    console.log(x);
+    
+}
+ addnum2("hh")
+
+ interface userInterface {
+   //readonly so it cant be changed.
+    readonly  id: number,
+     name: string,
+     age? : number
+ }
+ const user1: userInterface  = {
+     id: 1,
+     name: "hardik",
+     //optional
+    //  age: 28      
+ }
+
